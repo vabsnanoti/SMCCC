@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "colors": [
+      "#E34220",
+      "#F1C40F",
+      "#58D68D",
+      "#ffa1b5",
+      "#e3195c"
+    ],
+    "barChartData": [
+      {
+        "data": [
+          2713
+        ],
+        "label": "Positive",
+        "backgroundColor": "#27a744",
+        "barPercentage": 0.2
+      },
+      {
+        "data": [
+          322
+        ],
+        "label": "Negative",
+        "backgroundColor": "#E34220",
+        "barPercentage": 0.2
+      }
+    ],
+    "pieChartData": {
+      "colorData": [
+        {
+          "backgroundColor": [
+            "#E34220",
+            "#F1C40F",
+            "#27a744"
+          ],
+          "borderColor": [
+            "rgba(135,206,250,1)",
+            "rgba(106,90,205,1)",
+            "rgba(148,159,177,1)"
+          ]
+        }
+      ],
+      "labels": [
+        "appreciate_work",
+        "miscellaneous_msg",
+        "asking_help",
+        "suggestion",
+        "problem_faced",
+        "negative_comment",
+        "willing_to_help"
+      ],
+      "count": [
+        58.32,
+        17.15,
+        11.22,
+        7.41,
+        2.82,
+        2.38,
+        0.71
+      ]
+    },
+    "barChartLabel": "Positive/Negative",
+    "pieChartLabel": "Severity",
+    "usersData": [
+      {
+        "id": 1,
+        "name": "Rio bella",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et",
+        "severity": "high",
+        "type": "positive"
+      },
+      {
+        "id": 2,
+        "name": "et fugit eligendi deleniti quidem qui sint nihil autem",
+        "email": "Presley.Mueller@myrl.com",
+        "body": "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in",
+        "severity": "medium",
+        "type": "positive"
+      },
+      {
+        "id": 3,
+        "name": "et omnis dolorem",
+        "email": "mallory_Kunze@gmail.com",
+        "body": "ut voluptatem corrupti velit\nad voluptatem maiores\net nisi velit vero accusamus maiores\nvoluptates quia aliquid ullam eaque",
+        "severity": "low",
+        "type": "negative"
+      },
+      {
+        "id": 4,
+        "name": "met aomnis orem",
+        "email": "rio_helsinki@gmail.com",
+        "body": "ut voluptatem accusamus maiores\nvoluptates quia aliquid ullam eaque",
+        "severity": "high",
+        "type": "positive"
+      },
+      {
+        "id": 5,
+        "name": "met aomnis orem",
+        "email": "rio_helsinki@gmail.com",
+        "body": "test comment data",
+        "severity": "high",
+        "type": "positive"
+      },
+      {
+        "id": 6,
+        "name": "met aomnis orem",
+        "email": "rio_helsinki@gmail.com",
+        "body": "ore omnis voluptatem numquam\net omnis occaecat",
+        "severity": "high",
+        "type": "positive"
+      },
+      {
+        "id": 7,
+        "name": "met aomnis orem",
+        "email": "rio_helsinki@gmail.com",
+        "body": "ut atus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptate",
+        "severity": "high",
+        "type": "positive"
+      }
+    ]
+  }
+}

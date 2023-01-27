@@ -1,0 +1,26 @@
+
+<!doctype html>
+<title>Upload new File</title>
+<head>
+<script>
+(function(){
+    var _ua = navigator.userAgent;
+    if (_ua.indexOf('Nintendo 3DS') > -1) {
+        document.write('<link rel="stylesheet" href="{{url_for('static', filename='3ds.css')}}">');
+    }
+})();
+</script>
+</head>
+<h2>Upload new File</h2>
+<form action="{{url_for('upload_file')}}" method=post enctype=multipart/form-data>
+     <input type=file name="file">
+     <input type=submit name="send" value=Upload>
+</form>
+{% if files %}
+  <h2>Files llist</h2>
+  {% for file in files %}
+    <p><a href="{{ file.url }}"> {{ file.file_name }} </a></p>
+  {% endfor %}
+{% else %}
+  <h2>No files</h2>
+{% endif %}
